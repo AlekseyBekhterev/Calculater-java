@@ -45,7 +45,7 @@ public enum Roma {
 27 % 10 чтобы уйти ниже нуля = 7 остаток
 /*/
 
-        hundreds = (value / 10) % 10;
+        hundreds = (value / 100) % 10;
         switch (hundreds) {
             case 1:
             result = "C";
